@@ -1,0 +1,195 @@
+*{
+
+    margin: 0;
+    padding: 0;
+    background-color: white;
+}
+.nav-bar{
+    width: 100%;
+    height: 50px;
+    background: white;
+    margin: 0;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 15px;
+    position: sticky;
+    top: 0;
+
+}
+.logo{
+    width: 27px;
+    height: 27px;
+    position: relative;
+    margin-left: 25px;
+}
+.GH{
+    color: green;
+}
+.first{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 30px;
+    font-family: system-ui;
+    letter-spacing: -3px;
+    margin-bottom: 100px;
+}
+
+.GSlogo{
+    cursor: pointer;
+    display: flex;
+}
+.GSlogo svg:hover{
+    fill: royalblue;
+}
+
+.GSlogo svg {
+    fill: gray;
+    height: 24px;
+    margin-right: 25px;
+}
+.AClogo{
+    margin-right: 25px;
+    border-radius: 50%;
+}
+.second{
+    width:100%;
+    height: 2000px;
+    background-color: white;
+    display: flex;
+}
+.L-center{
+    width: 300px;
+    height: 400px;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+}
+.L-in{
+    width: 180px;
+    height: 180px;
+    background-color:white;
+    display: flex;
+    flex-direction: column;
+    
+}
+.LH{
+    cursor: pointer;
+    margin-top: 0;
+    margin-bottom: 20px;
+    font-size: 12px;
+    line-height: 24px;
+    color: dimgrey;
+    font-family: sans-serif;
+}
+.checklab{
+    margin-left: 15px;
+    cursor: pointer;
+    font-family: monospace;
+}
+.chbox{
+    cursor: pointer;
+}
+.sec1{
+    width: 100%;
+    background-color:white;
+    height: 2000px;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr)) ;
+    gap: 1rem;
+
+}
+.R-center{
+    width: 1100px;
+    height: 2000px;
+    background-color:white;
+}
+
+.product-img{
+    width: 250px;
+    height: 350px;
+    background-color:whitesmoke;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+}
+.prodct-title{
+    width: 250px;
+    margin: auto;
+    color: #3c4043;
+    cursor: pointer;
+    font-size: 8px;
+    font-family: system-ui;
+    letter-spacing: -.5px;
+
+}
+.sqr1 img{
+    width: 185px;
+    background: transparent;
+    margin-left: 30px;
+}
+.sqr1 img:hover{
+    transform: scale(1.1);
+}
+
+.down{
+    width: 100%;
+    height: 245px;
+    background-color:white;
+    margin-top: 0;
+    display: flex;
+    justify-content:end;
+}
+.down1{
+    display: flex;
+    margin-right: 145px;
+}
+.down1 ul li{
+    list-style: none;
+}
+
+.down1 a{
+    text-decoration: none;
+    color: black;
+    
+    font-family: system-ui;
+    font-size: 14px;
+}
+.down ul{
+    margin-left: 40px;
+    margin-top: 40px;
+}
+.down li{
+    margin-bottom: 30px;
+}
+.botline{
+    height: 1px;
+    width: 1100px;
+    background-color: gainsboro;
+    margin: auto;
+}
+.foot1 svg{
+    height: 20px;
+    fill:  #423f3f;
+    margin-left: 17px;
+    cursor: pointer;
+}
+.foot1{
+    display: flex;
+}
+.foot2 a{
+    text-decoration: none;
+    font-size: 12px;
+    font-family: system-ui;
+    margin-left: 25px;
+    color: black;
+}
+.footer{
+    display: flex;
+    justify-content: space-between;
+    padding-left: 70px;
+    padding-right: 85px;
+    margin-top: 5px;
+}
